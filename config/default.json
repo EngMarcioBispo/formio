@@ -1,10 +1,10 @@
 {
-  "port": 3001,
+  "port": 80,
   "appPort": 8080,
-  "host": "zetacode.app.br:3001",
+  "host": "zetacode.app.br:80",
   "protocol": "http",
   "allowedOrigins": ["*"],
-  "domain": "http://zetacode.app.br:3001",
+  "domain": "http://zetacode.app.br:80",
   "basePath": "",
   "mongo": "mongodb://zetacode.app.br:27017/oss-formio",
   "mongoConfig": "",

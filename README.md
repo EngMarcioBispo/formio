@@ -35,7 +35,7 @@ The fastest way to run this library locally is to use [Docker](https://docker.co
 
  - Go to the following URL in your browser.
     ```
-    http://zetacode.app.br:3001
+    http://zetacode.app.br:80
     ```
  - Use the following credentials to login.
     - **email**: admin@example.com
@@ -78,7 +78,7 @@ This will walk you through the installation process.  When it is done, you will 
 application running at the following address in your browser.
 
 ```
-http://zetacode.app.br:3001
+http://zetacode.app.br:80
 ```
 
 Development
@@ -102,7 +102,7 @@ Once you have this tool installed, you will need to follow these steps.
  - Next, you can execute the following command to deploy your local project into Hosted Form.io.
 
 ```
-formio deploy http://zetacode.app.br:3001 https://{PROJECTNAME}.form.io --dst-key={APIKEY}
+formio deploy http://zetacode.app.br:80 https://{PROJECTNAME}.form.io --dst-key={APIKEY}
 ```
 
 You will need to make sure you replace ```{PROJECTNAME}``` and ```{APIKEY}``` with your new Hosted Form.io project name (found in the API url), as well as the API key that was created in the second step above.

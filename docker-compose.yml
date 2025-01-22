@@ -16,7 +16,7 @@ services:
     links:
       - mongo
     ports:
-      - "3001:3001"
+      - "80:80"
     environment:
       DEBUG: formio:*
       NODE_CONFIG: '{"mongo": "mongodb://mongo:27017/formio"}'
