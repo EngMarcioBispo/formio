@@ -782,7 +782,7 @@ module.exports = (app, template, hook) => {
           }
         });
         server.port = port++;
-        server.url = `http://localhost:${server.port}`;
+        server.url = `http://zetacode.app.br:${server.port}`;
         server.listen(server.port, () => {
           hook.alter('webhookServer', server, app, template, (err, server) => {
             ready(err, server);

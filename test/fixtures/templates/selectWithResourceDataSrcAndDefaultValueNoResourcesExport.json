@@ -52,7 +52,7 @@
                 "metadata": {
                   "timezone": "America/Chicago",
                   "offset": -300,
-                  "origin": "http://localhost:3000",
+                  "origin": "http://zetacode.app.br:3000",
                   "referrer": "",
                   "browserName": "Netscape"
                 },

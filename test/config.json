@@ -1,7 +1,7 @@
 {
-  "domain": "localhost",
+  "domain": "zetacode.app.br",
   "port": 3000,
-  "mongo": "mongodb://localhost:27017/formio-test",
+  "mongo": "mongodb://zetacode.app.br:27017/formio-test",
   "projectSupport": true,
   "mongoSecret": "abc123",
   "email": {

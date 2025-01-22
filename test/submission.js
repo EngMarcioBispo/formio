@@ -3471,7 +3471,7 @@ module.exports = function(app, template, hook) {
               return done(err);
             }
 
-            let apiUrl = 'http://localhost:' + template.config.port;
+            let apiUrl = 'http://zetacode.app.br:' + template.config.port;
             apiUrl += hook.alter('url', '/form/' + helper.template.forms['fruits']._id + '/submission', helper.template);
 
             helper
@@ -3745,7 +3745,7 @@ module.exports = function(app, template, hook) {
               return done(err);
             }
 
-            let apiUrl = 'http://localhost:' + template.config.port;
+            let apiUrl = 'http://zetacode.app.br:' + template.config.port;
             apiUrl += hook.alter('url', '/form/' + helper.template.forms['fruits']._id + '/submission', helper.template);
 
             helper

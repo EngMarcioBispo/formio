@@ -12,7 +12,7 @@ if (!el) {
 const root = createRoot(el);
 root.render(
     <StrictMode>
-        <FormioProvider baseUrl="http://localhost:3001">
+        <FormioProvider baseUrl="http://zetacode.app.br:3001">
             <InfoPanelProvider>
                 <App />
             </InfoPanelProvider>
